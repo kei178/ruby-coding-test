@@ -28,15 +28,15 @@
 # @param {String} s
 # @return {Integer}
 def length_of_longest_substring(s)
-  return 0 if s.length == 0
+  return 0 if s.empty?
 
   max = 0
   left = 0
   right = 0
-  while (left < s.length)
+  while left < s.length
     hash = {}
     duplicated = false
-    for i in left..right
+    (left..right).each do |i|
       char = s[i]
       if hash[char].nil?
         hash[char] = true

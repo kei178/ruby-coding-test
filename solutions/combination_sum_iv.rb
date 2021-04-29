@@ -4,8 +4,8 @@
 def combination_sum4(nums, target, memo = {})
   # base case
   return memo[target] if memo.key?(target)
-  return 1 if target == 0
-  return 0 if target < 0
+  return 1 if target.zero?
+  return 0 if target.negative?
 
   # recursion
   count = 0

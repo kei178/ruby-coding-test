@@ -1,0 +1,17 @@
+AllCops:
+  TargetRubyVersion: 2.5
+  NewCops: disable
+  Exclude:
+    - 'spec/**/*'
+
+Layout/LineLength:
+  Max: 300
+
+Naming:
+  Enabled: false
+
+Style:
+  Enabled: false
+
+Metrics:
+  Enabled: false

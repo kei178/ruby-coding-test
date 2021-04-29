@@ -22,7 +22,7 @@ def product_except_self(nums)
   zero_count = 0
   total = 1
   nums.each do |num|
-    if num === 0
+    if num.zero?
       zero_count += 1
     else
       total *= num
@@ -36,7 +36,7 @@ def product_except_self(nums)
   elsif zero_count == 1
     # if zero is just 1
     # every element will be 0 execept 0 itself
-    nums.map { |num| num == 0 ? total : 0 }
+    nums.map { |num| num.zero? ? total : 0 }
   else
     # if no zero
     # normal case

@@ -22,13 +22,13 @@ def count_substrings(s)
   count = 0
 
   # each single char
-  for i in 0..s.length - 1
+  (0..s.length - 1).each do |i|
     table[i][i] = true
     count += 1
   end
 
   # each two char
-  for i in 0..s.length - 2
+  (0..s.length - 2).each do |i|
     j = i + 1
     if s[i] == s[j]
       table[i][j] = true
@@ -39,7 +39,7 @@ def count_substrings(s)
   # more than two char
   length = 2
   while length <= s.length
-    for i in 0..s.length - 1
+    (0..s.length - 1).each do |i|
       j = i + length
       if s[i] == s[j] && table[i + 1][j - 1]
         table[i][j] = true

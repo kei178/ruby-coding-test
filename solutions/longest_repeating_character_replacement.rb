@@ -13,11 +13,11 @@ def character_replacement(s, k)
     while start < s.length
       remain = k
       count = 0
-      for i in start..s.length - 1
+      (start..s.length - 1).each do |i|
         if s[i] == char
           count += 1
           max = [max, count].max
-        elsif remain > 0
+        elsif remain.positive?
           remain -= 1
           count += 1
           max = [max, count].max
