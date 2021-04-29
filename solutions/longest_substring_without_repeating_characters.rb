@@ -1,5 +1,5 @@
 # Given a string s,
-# find the length of the longest substring without repeating characters. 
+# find the length of the longest substring without repeating characters.
 
 # Example 1:
 #   Input: s = "abcabcbb"
@@ -20,7 +20,7 @@
 # Example 4:
 #   Input: s = ""
 #   Output: 0
- 
+
 # Constraints:
 #   0 <= s.length <= 5 * 104
 #   s consists of English letters, digits, symbols and spaces.
@@ -33,10 +33,10 @@ def length_of_longest_substring(s)
   max = 0
   left = 0
   right = 0
-  while(left < s.length) do
+  while (left < s.length)
     hash = {}
     duplicated = false
-    for i in left..right do
+    for i in left..right
       char = s[i]
       if hash[char].nil?
         hash[char] = true
@@ -50,7 +50,7 @@ def length_of_longest_substring(s)
       left += 1
     else
       max = [max, right - left + 1].max
-      right == (s.length - 1) ? left += 1 : right += 1 
+      right == (s.length - 1) ? left += 1 : right += 1
     end
   end
 

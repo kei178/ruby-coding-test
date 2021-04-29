@@ -14,9 +14,9 @@ RSpec.describe 'character_replacement' do
     expect(character_replacement(s, k)).to eq(4)
   end
 
-   it 'returns 3' do
-     s = 'BAAA'
-     k = 0
-     expect(character_replacement(s, k)).to eq(3)
-   end
+  it 'returns 3' do
+    s = 'BAAA'
+    k = 0
+    expect(character_replacement(s, k)).to eq(3)
+  end
 end

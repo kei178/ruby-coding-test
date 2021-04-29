@@ -16,7 +16,7 @@ RSpec.describe 'word_break' do
 
   it 'returns false' do
     s = 'catsandog'
-    word_list = ['cats','dog','sand','and','cat']
+    word_list = ['cats', 'dog', 'sand', 'and', 'cat']
     expect(word_break(s, word_list)).to be_falsey
   end
 end

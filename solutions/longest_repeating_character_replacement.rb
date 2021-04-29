@@ -10,10 +10,10 @@ def character_replacement(s, k)
   max = 0
   arr.uniq.each do |char|
     start = 0
-    while start < s.length do
+    while start < s.length
       remain = k
       count = 0
-      for i in start..s.length - 1 do
+      for i in start..s.length - 1
         if s[i] == char
           count += 1
           max = [max, count].max
@@ -25,7 +25,7 @@ def character_replacement(s, k)
           start += 1
           break
         end
-        
+
         start += 1 if i == s.length - 1
       end
     end

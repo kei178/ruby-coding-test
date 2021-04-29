@@ -8,7 +8,7 @@
 # Example 2:
 #   Input: s = "rat", t = "car"
 #   Output: false
- 
+
 # Constraints:
 #   1 <= s.length, t.length <= 5 * 104
 #   s and t consist of lowercase English letters.
@@ -17,8 +17,8 @@
 # @param {String} t
 # @return {Boolean}
 def is_anagram(s, t)
-  return false if s.length != t.length 
-  
+  return false if s.length != t.length
+
   sorted_s = s.split('').sort.join('')
   sorted_t = t.split('').sort.join('')
   sorted_s == sorted_t
