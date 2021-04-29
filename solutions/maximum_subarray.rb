@@ -25,7 +25,7 @@ def max_sub_array(nums)
   table = Array.new(nums.length)
   table[0] = nums[0]
   max = nums[0]
-  (1..nums.length - 1).each do |i|
+  for i in 1..nums.length - 1
     temp = [nums[i], nums[i] + table[i - 1]].max
     table[i] = temp
     max = [max, temp].max
