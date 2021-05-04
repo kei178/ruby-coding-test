@@ -16,4 +16,9 @@ RSpec.describe 'three_sum' do
     nums = [0]
     expect(three_sum(nums)).to eq([])  
   end
+
+  it 'returns [[0,0,0]]' do
+    nums = [0,0,0]
+    expect(three_sum(nums)).to eq([[0,0,0]])
+  end
 end
