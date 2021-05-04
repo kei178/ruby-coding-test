@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../../solutions/product_of_array_except_self.rb'
+require_relative '../../../solutions/leetcode/product_of_array_except_self.rb'
 
 RSpec.describe 'product_except_self' do
   it 'returns [24,12,8,6]' do

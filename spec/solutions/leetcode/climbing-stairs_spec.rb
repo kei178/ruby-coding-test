@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../../solutions/climbing-stairs.rb'
+require_relative '../../../solutions/leetcode/climbing-stairs.rb'
 
 RSpec.describe 'climb_stairs' do
   it 'returns 2' do

@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../../solutions/longest_substring_without_repeating_characters.rb'
+require_relative '../../../solutions/leetcode/longest_substring_without_repeating_characters.rb'
 
 RSpec.describe 'length_of_longest_substring' do
   it 'returns 3' do

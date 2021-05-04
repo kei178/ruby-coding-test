@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../../solutions/search_in_rotated_sorted_array.rb'
+require_relative '../../../solutions/leetcode/search_in_rotated_sorted_array.rb'
 
 RSpec.describe 'search' do
   it 'returns 4' do

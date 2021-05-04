@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../../solutions/unique-paths.rb'
+require_relative '../../../solutions/leetcode/unique-paths.rb'
 
 RSpec.describe 'unique_paths' do
   it 'returns 28' do

@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../../solutions/3sum.rb'
+require_relative '../../../solutions/leetcode/3sum.rb'
 
 RSpec.describe 'three_sum' do
   it 'returns [[-1,-1,2],[-1,0,1]]' do

@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../../solutions/combination_sum_iv.rb'
+require_relative '../../../solutions/leetcode/combination_sum_iv.rb'
 
 RSpec.describe 'combination_sum4' do
   it 'returns 7' do

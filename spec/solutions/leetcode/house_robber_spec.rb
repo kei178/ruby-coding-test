@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../../solutions/house_robber.rb'
+require_relative '../../../solutions/leetcode/house_robber.rb'
 
 RSpec.describe 'rob' do
   it 'returns 4' do

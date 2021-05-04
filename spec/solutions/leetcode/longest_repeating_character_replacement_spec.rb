@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../../solutions/longest_repeating_character_replacement.rb'
+require_relative '../../../solutions/leetcode/longest_repeating_character_replacement.rb'
 
 RSpec.describe 'character_replacement' do
   it 'returns 4' do

@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../../solutions/valid_anagram.rb'
+require_relative '../../../solutions/leetcode/valid_anagram.rb'
 
 RSpec.describe 'is_anagram' do
   it 'returns true' do

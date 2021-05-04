@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../../solutions/decode-ways.rb'
+require_relative '../../../solutions/leetcode/decode-ways.rb'
 
 RSpec.describe 'num_decodings' do
   it 'returns 2' do

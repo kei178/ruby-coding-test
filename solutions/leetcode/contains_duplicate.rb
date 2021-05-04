@@ -23,7 +23,7 @@
 def contains_duplicate(nums)
   memo = {}
   nums.each do |num|
-    reutnr true unless memo[num].nil?
+    return true unless memo[num].nil?
 
     memo[num] = true
   end

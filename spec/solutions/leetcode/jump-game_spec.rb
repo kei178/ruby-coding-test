@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../../solutions/jump-game.rb'
+require_relative '../../../solutions/leetcode/jump-game.rb'
 
 RSpec.describe 'can_jump' do
   it 'returns true' do

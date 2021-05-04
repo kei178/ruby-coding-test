@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../../solutions/longest-increasing-subsequence.rb'
+require_relative '../../../solutions/leetcode/longest-increasing-subsequence.rb'
 
 RSpec.describe 'length_of_lis' do
   it 'returns 4' do

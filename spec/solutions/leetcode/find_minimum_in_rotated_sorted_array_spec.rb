@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../../solutions/find_minimum_in_rotated_sorted_array.rb'
+require_relative '../../../solutions/leetcode/find_minimum_in_rotated_sorted_array.rb'
 
 RSpec.describe 'find_min' do
   it 'returns 1' do

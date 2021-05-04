@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'spec_helper'
-require_relative '../../solutions/maximum_subarray.rb'
+require_relative '../../../solutions/leetcode/maximum_subarray.rb'
 
 RSpec.describe 'max_sub_array' do
   it 'returns 6' do

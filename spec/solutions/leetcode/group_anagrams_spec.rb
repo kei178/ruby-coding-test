@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../../solutions/group_anagrams.rb'
+require_relative '../../../solutions/leetcode/group_anagrams.rb'
 
 RSpec.describe 'group_anagrams' do
   it 'returns [["eat", "tea", "ate"], ["tan", "nat"], ["bat"]]' do

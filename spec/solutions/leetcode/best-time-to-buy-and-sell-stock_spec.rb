@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../../solutions/best-time-to-buy-and-sell-stock.rb'
+require_relative '../../../solutions/leetcode/best-time-to-buy-and-sell-stock.rb'
 
 RSpec.describe 'max_profit' do
   it 'returns 5' do

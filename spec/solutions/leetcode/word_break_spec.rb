@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../../solutions/word_break.rb'
+require_relative '../../../solutions/leetcode/word_break.rb'
 
 RSpec.describe 'word_break' do
   it 'returns true' do

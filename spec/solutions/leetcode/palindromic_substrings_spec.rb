@@ -1,5 +1,5 @@
 require 'spec_helper'
-require_relative '../../solutions/palindromic_substrings.rb'
+require_relative '../../../solutions/leetcode/palindromic_substrings.rb'
 
 RSpec.describe 'count_substrings' do
   it 'returns 3' do

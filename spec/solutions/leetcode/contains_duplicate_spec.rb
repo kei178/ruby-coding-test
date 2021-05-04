@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 require 'spec_helper'
-require_relative '../../solutions/contains_duplicate.rb'
+require_relative '../../../solutions/leetcode/contains_duplicate.rb'
 
 RSpec.describe 'contains_duplicate' do
   context '[1, 2, 3, 1]' do
